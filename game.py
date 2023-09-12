@@ -7,8 +7,12 @@ import os
 inventory = []
 weapon = False
 key = False
+
+
+#Colors
 class colors:
-   COLLOR = '\031[91m'
+   COLLOR = '\033[91m'
+   WHITE = '\033[37m'
 
 #aesthetic functions
 def rbot(text):
@@ -35,7 +39,7 @@ def room1():
         "Oxygen: operational\n"
         "Power: operational\n"
         "Status: on course\n"
-        "days left: 13\n\n")
+        "days left: 13\n\n"+colors.WHITE)
 
     x = input("Wake up? Y/N\n\n")
     if x == "y":
