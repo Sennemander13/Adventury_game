@@ -7,7 +7,8 @@ import os
 inventory = []
 weapon = False
 key = False
-
+class colors:
+   COLLOR = '\031[91m'
 
 #aesthetic functions
 def rbot(text):
@@ -29,7 +30,7 @@ def cs():
 #story/scens/locations
    
 def room1():
-    rbot("11:23\nGoodmorning sir\n"
+    rbot(colors.COLLOR+"11:23\nGoodmorning sir\n"
         "life support: operational\n"
         "Oxygen: operational\n"
         "Power: operational\n"
