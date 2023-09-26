@@ -60,6 +60,6 @@ def day13():
    
    lore('you wake up for the final 3 hours of your journey\n'
         'your fellow crewmates are praying to gods you dont believe in\n'
-        'you are just focusing on the final things that need to be done before your arival\n\n')
+        'you are just focussing on the final things that need to be done before your arrival\n\n')
    
 room1()
